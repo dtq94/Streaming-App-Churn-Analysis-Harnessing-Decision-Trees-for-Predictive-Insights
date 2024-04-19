@@ -8,17 +8,6 @@ Churn prediction is crucial for businesses, especially in industries where subsc
 
 In this project, we use a dataset from a streaming service containing various features related to customer behavior and demographics. We leverage decision tree models to predict churn and address **class imbalance using SMOTE**. Additionally, we evaluate model performance using **ROC curve analysis and confusion matrix**.
 
-## Project Structure
-
-The project is structured as follows:
-
-- `ML_Pipeline`: Contains utility functions, data preprocessing, model training, evaluation metrics, and visualization.
-  - `utils.py`: Utility functions for reading data, inspection, handling null values, etc.
-  - `ml_model.py`: Functions for preparing the model with SMOTE, running the model, etc.
-  - `evaluate_metrics.py`: Functions for evaluating model performance, including confusion matrix and ROC curve.
-  - `feature_imp.py`: Function for plotting feature importances.
-  - `plot_model.py`: Function for plotting decision tree.
-
 ## Approach
 ### 1. Data Preparation:
 - Imported necessary libraries and read the dataset.
@@ -50,3 +39,16 @@ The project is structured as follows:
 - imbalanced-learn
 - pandas
 - matplotlib
+
+## Project Structure
+```
+|-- InputFiles
+    -- data_set.csv
+|-- SourceFolder
+    |-- ML_Pipeline
+        -- ml_model.py
+        -- feature_imp.py
+        -- utils.py
+        -- plot_model.py
+        -- evaluate_metrics.py
+    |-- Engine.py
