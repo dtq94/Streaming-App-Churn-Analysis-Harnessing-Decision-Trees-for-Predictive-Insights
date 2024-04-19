@@ -1,6 +1,6 @@
 # Streaming Service Churn Analyis Harnessing Decision Trees
 
-This project aims to predict churn in a streaming service using machine learning techniques, particularly focusing on decision tree models and addressing class imbalance using SMOTE (Synthetic Minority Over-sampling Technique). It also includes the evaluation of model performance through ROC curve analysis and confusion matrix.
+This project aims to predict churn in a streaming service using machine learning techniques, particularly focusing on decision tree models and addressing class imbalance using ```SMOTE (Synthetic Minority Over-sampling Technique)```. It also includes the evaluation of model performance through ```ROC curve analysis and confusion matrix```.
 
 ## Overview
 
